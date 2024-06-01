@@ -1,0 +1,31 @@
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logoWrapper {
+
+}
+
+.logoImg {
+    width: 100px;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+.titleWrapper {
+
+}
+
+.title {
+
+}
+
+.subtitle {
+    font-weight: normal;
+}
