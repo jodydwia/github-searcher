@@ -4,7 +4,7 @@ import styles from "./Searchform.module.css";
 import {useEffect, useState} from 'react';
 import {searchGithub} from "../../services/apiGithub.js";
 import {setIsLoading, setSearchType, updateGithub} from "../../reducers/githubSlice.js";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 
 
 export default function SearchForm() {

@@ -2,17 +2,15 @@
     max-width: 400px;
     width: 100%;
     max-height: max-content;
-    padding:10px;
+    height: 200px;
+    padding:12px;
     border-radius: 5px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
 }
 
 .card p {
-    margin: 0;
-}
-
-.card p {
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
 }
 
 .card p:last-child {
@@ -20,15 +18,15 @@
 }
 
 .skeleton {
-    padding:10px;
+    padding:12px;
     max-width: 400px;
     width: 100%;
-    height: 150px;
+    height: 200px;
     max-height: 400px;
     background: #fff;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
@@ -103,6 +101,12 @@
     }
     100% {
         background-position: 468px 0;
+    }
+}
+
+@media only screen and (min-width: 75em){
+    .card p {
+        font-size: 1.2rem;
     }
 }
 

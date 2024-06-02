@@ -8,7 +8,7 @@ export async function searchGithub(value, type) {
         headers: {Authorization: `Bearer ${TOKEN}`}
     });
 
-    if (!res.ok) throw Error("Failed getting data");
+    if (res.message) throw Error("Failed getting data");
 
     const data = await res.json();
 
